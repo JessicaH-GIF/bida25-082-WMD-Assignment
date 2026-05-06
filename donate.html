@@ -4,32 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIV/AIDS</title>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <header>
-         <img src="image.png" alt="HealthLink Botswana logo" width="100" height="100">
+    <header id="topheader">
+         <img src="icon images/image.png" alt="HealthLink Botswanalogo" class="logo" width="100" height="100">
+     
+         <div class="title">
          <h1>HealthLink Botswana</h1>
-         <caption><em>Connecting people to Health, Knowledge, and Support</em></caption>
+         <p><em>Connecting people to Health, Knowledge, and Support</em></p>
+         </div>
+    </header>
+
+ <div class="container">   
+         <nav class="sidebar">
+
+            <div>
+            <img src="icon images/home (1).png" alt="home icon" width="100" height="100">
+            <a href="home.html">Home</a>
+            </div>
+
+            <div>
+            <img src="icon images/ribbon.png" alt="about hiv/aids icon" width="100" height="100">
+            <a href="abouthivaids.html">About HIV/AIDS</a> 
+            </div>
+
+            <div>
+            <img src="icon images/dashboard-monitor.png" alt="solutions forawareness icon" width="100" height="100">
+            <a href="solutionsforawareness.html">Digital Solutions for Awareness</a> 
+            </div>
+
+            <div>
+            <img src="icon images/shield-check.png" alt="safety and privacy icon" width="100" height="100">
+            <a href="safetyandprivacy.html">Digital Safety and Privacy</a> 
+            </div>
+
+            <div>
+            <img src="icon images/users-alt.png" alt="support and resources icon" width="100" height="100">
+            <a href="supportandresources.html">Support and Resources</a> 
+            </div>
+
+            <div>
+            <img src="icon images/box-megaphone.png" alt="interactive section icon" width="100" height="100">
+            <a href="quiz.html">Interactive Section</a> 
+            </div>
+
+            <div>
+            <img src="icon images/phone-call.png" alt="connect with us icon" width="100" height="100">
+            <a href="connect.html">Connect With Us</a> 
+            </div>
+
+            <div>
+            <img src="icon images/hands-heart.png" alt="donate icon" width="100" height="100">
+            <a href="donate.html">Make A Difference</a> 
+            </div>
+        </nav>
+    
+<main id="content">
 
         <h2>Make A Difference</h2>
-         <nav>
-              |  <a href="home.html">Home</a> |
-                <a href="abouthivaids.html">About HIV/AIDS</a> |
-                <a href="solutionsforawareness.html">Digital Solutions for Awareness</a> |
-                <a href="safetyandprivacy.html">Digital Safety and Privacy</a> |
-                <a href="supportandresources.html">Support and Resources</a> |
-                <a href="quiz.html">Interactive Section</a> |
-                <a href="connect.html">Connect With Us</a> |
-                <a href="donate.html">Make A Difference</a> |
-        </nav>
-    </header>
-    <main>
-        <p>This is a placeholder till i do my assignment.</p>
 
-        <p>Visit <a href="https://github.com">GitHub</a> to learn more about HIV/AIDS.</p> 
-    </main>
+        <p>This page allows young Batswana to contribute through online donations to support families affected by HIV/AIDS.</p>
+
+<div class="donationlayout">
+    <div class="donationform">
+        <h2>Donation Form</h2>
+
+    <form onsubmit="donateMessage(); return false;">
+
+     <label>Full Name:</label><br>
+     <input type="text" required><br><br>
+
+     <label>Email:</label><br>
+     <input type="email" required><br><br>
+
+     <label>Amount (BWP):</label><br>
+     <input type="number" required><br><br>
+
+    <br>
+
+     <h3>Bank Details (For Manual Transfer)</h3>
+     <p>
+     Bank Name: Botswana Savings Bank<br>
+     Account Name: HealthLink Botswana Charity Fund<br>
+     Account Number: 123456789<br>
+     Reference: HIV Support Donation
+     </p>
+
+     <p style="color: red;">NOTE: Filling the form only indicates that you are interested in making a donation.To pay visit the nearest Bostwana Savings Bank, along with the above bank details to make the transaction and our Finance department will attach the receipt to your donation to the recieved transaction.</p>
+
+     <br>
+    <div class="link">
+    <button style="margin-left: 200px;" type="submit">Donate Now</button>
+    </div>
+
+    <script>
+     function donateMessage() {
+         alert("Your donation has been sent successfully!");
+         }
+    </script>
+
+    </form>
+    </div>
+
+    <div class="donationinfo">
+      <h2>Where Your Donation Goes</h2>
+      <img src="content images/Beautiful children_.jpg" alt="support for families" width="100" height="100">
+  
+
+      <h3>Support for Families</h3>
+      <p>Helping families who have lost a breadwinner due to HIV/AIDS.</p>
+
+      <h3>Medical Assistance</h3>
+      <p>Supporting access to medication and treatment for affected individuals.</p>
+
+      <h3>Community Support</h3>
+      <p>Providing basic needs and educational support for children impacted by HIV/AIDS.</p>
+    </div>  
+
+    <div class="thankyou">
+      <h2>Thank You</h2>
+
+        <p>We sincerely appreciate every donation made. Your contribution helps build stronger, healthier communities and supports those affected by HIV/AIDS.</p>
+
+        <p><strong>Together, we can make a real difference.</strong></p>
+    </div>
+
+        <p>Click <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8602965/">here</a> to learn more about how donations help.</p>
+</div>
+</main>
+</div>
+
 <footer>
-    <p>&copy;Jessicah Mmoloke 2026</p>
+     <p>HealthLink Botswana. All rights preserved</p> <img src="icon images/facebook.png" alt="facebook icon" width="20" height="20"> <img src="icon images/instagram-circle.png" alt="instagram icon" width="20" height="20"> <img src="icon images/tiktok-circle.png" alt="tiktok icon" width="20" height="20">
 </footer>
 </body>
 </html>

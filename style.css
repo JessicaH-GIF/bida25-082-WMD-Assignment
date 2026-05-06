@@ -1,0 +1,121 @@
+#topheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px;
+    background-color: #005f73;
+    align-items: center; 
+    height: 100px; 
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    width: 200px;
+    height: 135px;
+}
+
+#topheader h1 {
+    color: #d62828;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+.sidebar {
+    width: 200px;
+    background-color: #005f73;
+    padding: 15px;
+    height: 110vh;
+}
+
+.sidebar div {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sidebar img {
+    width: 35px;
+    height: 35px;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+#content {
+    padding: 20px;
+    flex: 1;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    margin: 0;
+    color: #d62828;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.title p {
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    background-color: #005f73;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+#sidecontent {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 300px;
+    padding: 15px;
+    height: 110vh;
+    opacity: 10%;
+}
+
+.links {
+    color: #d62828;
+}
+
+.links:hover {
+    color: #005f73;
+}
+
+#nav:hover {
+    color: #d62828;
+}
+
+button {
+    background-color: #0c53b7;
+    color: #ffffff;
+    border: 2px solid #051935;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b80a0a;
+    text-shadow: #360c0c 0px 0px 5px;
+}
+
+summary {
+    cursor: pointer
+} 
