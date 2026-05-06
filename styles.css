@@ -22,10 +22,12 @@
 .title h1 {
     color: #b30000;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .title p em {
     color: #f9f9f9;
+    margin-left: 45px;
 }
 
 /* SIDEBAR */
@@ -68,7 +70,7 @@
 
 
 /* LAYOUT */
-.container {
+.main-container {
     display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
