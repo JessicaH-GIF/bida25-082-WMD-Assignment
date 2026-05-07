@@ -93,6 +93,12 @@
     text-align: center;
 }
 
+.contentrow img,
+#content img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* LINKS */
 .links {
     color: #06025a;
@@ -114,8 +120,14 @@
     display: flex;
     margin-left: 490px;
     margin-top: 20px;
+    display: block;
+    margin: 20px auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .link button:hover {
     background-color: #4c428c;
@@ -429,24 +441,56 @@ input {
 
 @media (max-width: 768px) {
 
+    /* Stack sidebar and content */
     .main-container {
         flex-direction: column;
     }
 
+    /* Sidebar full width */
     .sidebar {
         width: 100%;
         margin: 0;
     }
 
+    /* Tables become one column */
     .tablelayout {
         grid-template-columns: 1fr;
     }
 
+    /* Stack content rows */
     .contentrow {
         flex-direction: column;
     }
 
+    /* Images responsive */
+    .contentrow img,
+    .logo,
+    #content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Buttons centered */
     .link button {
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* Reduce padding on small screens */
+    #content {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    /* Ask layout responsive */
+    .asklayout {
+        flex-direction: column;
+    }
+
+    /* Donation layout responsive */
+    .donationlayout {
+        flex-direction: column;
     }
 }
+
