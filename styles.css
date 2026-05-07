@@ -4,18 +4,21 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 15px;
+    padding: 15px 20px;
     background: linear-gradient(90deg, #120775, #0a9396);
-    height: 100px;
     color: white;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .logo {
+ 
     position: absolute;
-    left: 15px;
-    width: 200px;
-    height: 135px;
+    left: 20px;
+    width: 190px;
+    height: auto;
     mix-blend-mode: multiply;
+
 }
 
 /* TITLE */
@@ -23,11 +26,14 @@
     color: #b30000;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    margin: 0;
+    font-size: 2rem;
 }
 
 .title p em {
     color: #f9f9f9;
-    margin-left: 45px;
+    margin: 0;
+    font-size: 1rem;
 }
 
 /* SIDEBAR */
@@ -155,6 +161,10 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 body {
@@ -494,3 +504,24 @@ input {
     }
 }
 
+@media (max-width: 768px) {
+
+    #topheader {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .logo {
+        width: 100px;
+        margin-bottom: 10px;
+        position: static;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    .title p em {
+        font-size: 0.9rem;
+    }
+}
