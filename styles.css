@@ -36,6 +36,8 @@
     background-color:   #120775;
     padding: 15px;
     height: auto;
+    margin-left: 30px;
+    margin-right: 15px;
    
 }
 
@@ -80,7 +82,7 @@
 #content {
     padding: 30px;
     flex: 1;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 0.80);
     margin: 20px;
     border-radius: 10px;
 }
@@ -423,4 +425,28 @@ input {
 
 .caption {
     text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin: 0;
+    }
+
+    .tablelayout {
+        grid-template-columns: 1fr;
+    }
+
+    .contentrow {
+        flex-direction: column;
+    }
+
+    .link button {
+        margin-left: 0;
+    }
 }
