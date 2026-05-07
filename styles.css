@@ -314,7 +314,7 @@ input {
     margin-top: 50px;
 }
 
-.table {
+.resource-table {
     background: linear-gradient(90deg, #ccc8f1, #7fb8b9);
     padding: 15px;
     border-radius: 10px;
@@ -323,30 +323,30 @@ input {
     flex-direction: column;
 }
 
-.table h2 {
+.resource-table h2 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-table {
+.resource-table table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
-th {
+.resource-table th {
     background-color: #120775;
     color: white;
     padding: 10px;
     text-align: left;
 }
 
-td {
+.resource-table td {
     padding: 8px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #121111;
 }
 
-tr:hover {
+.resource-table tr:hover {
     background-color: #e0fbfc;
 }
 
