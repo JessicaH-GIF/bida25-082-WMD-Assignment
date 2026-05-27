@@ -153,7 +153,7 @@ summary {
 
 /* FOOTER */
 footer {
-     background: linear-gradient(90deg, #120775, #0a9396);
+    background: linear-gradient(90deg, #120775, #0a9396);
     color: #ffffff;
     text-align: center;
     padding: 10px;
@@ -499,9 +499,6 @@ input {
     .donationlayout {
         flex-direction: column;
     }
-}
-
-@media (max-width: 768px) {
 
     #topheader {
         flex-direction: column;
@@ -522,3 +519,6 @@ input {
         font-size: 0.9rem;
     }
 }
+
+
+
